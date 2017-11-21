@@ -17,3 +17,75 @@ header {
   border-width:2px;
   border-color:black;
 }
+
+hheader::after{
+  content: " ";
+  display: block;
+  width : 60px;
+  height : 60px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  background-color: #050505;
+
+}
+
+.nastyadvert {
+  background-image: url(toiletpaper_9.jpg);
+  min-height: 90vh;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.nastyadvert h1 {
+  font-size: 6em;
+  font-family: 'Anton', sans-serif;
+  color : black;
+  text-align: center;
+
+}
+
+.nastyadvert .container {
+  position: absolute;
+  top : 50%;
+  left : 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+footer{
+  background-color: #000000;
+  color : #dddddd;
+  padding : 4em;
+}
+
+.linklist {
+  list-style-type: none;
+}
+
+.linklist li {
+  margin: 2em;
+}
+
+.linklist a {
+  color: #fff;
+}
+
+.mywork ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+
+.mywork li {
+  width: 40%;
+  margin: 2em;
+  line-height: 0;
+}
+
+.mywork img {
+  width : 100%
+}
