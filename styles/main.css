@@ -52,3 +52,40 @@ hheader::after{
   left : 50%;
   transform: translateY(-50%) translateX(-50%);
 }
+
+footer{
+  background-color: #000000;
+  color : #dddddd;
+  padding : 4em;
+}
+
+.linklist {
+  list-style-type: none;
+}
+
+.linklist li {
+  margin: 2em;
+}
+
+.linklist a {
+  color: #fff;
+}
+
+.mywork ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+
+.mywork li {
+  width: 40%;
+  margin: 2em;
+  line-height: 0;
+}
+
+.mywork img {
+  width : 100%
+}
