@@ -37,3 +37,18 @@ hheader::after{
   background-attachment: fixed;
   position: relative;
 }
+
+.nastyadvert h1 {
+  font-size: 6em;
+  font-family: 'Anton', sans-serif;
+  color : black;
+  text-align: center;
+
+}
+
+.nastyadvert .container {
+  position: absolute;
+  top : 50%;
+  left : 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
