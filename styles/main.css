@@ -17,3 +17,23 @@ header {
   border-width:2px;
   border-color:black;
 }
+
+hheader::after{
+  content: " ";
+  display: block;
+  width : 60px;
+  height : 60px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  background-color: #050505;
+
+}
+
+.nastyadvert {
+  background-image: url(toiletpaper_9.jpg);
+  min-height: 90vh;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
