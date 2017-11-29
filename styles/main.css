@@ -14,8 +14,10 @@ header {
   color : #FFFFFF;
   padding : 0,5em;
   position: relative;
-  border-width:2px;
+  border-width:5px;
   border-color:black;
+  min-height: 60vh;
+  opacity: 50
 }
 
 hheader::after{
