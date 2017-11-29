@@ -16,8 +16,8 @@ header {
   position: relative;
   border-width:5px;
   border-color:black;
-  min-height: 60vh;
-  opacity: 50
+  min-height: 100vh;
+  opacity: 50;
 }
 
 hheader::after{
