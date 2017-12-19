@@ -5,15 +5,20 @@ body  {
 
 }
 section {
-  max-width: 46em;
+  max-width: 200em;
   margin : 0 auto;
+}
+
+ul {
+  text-decoration: none;
+  color: black;
 }
 
 header {
   background-color:#000000;
   color : #FFFFFF;
   padding : 0,5em;
-  border-width:5px;
+  border-width:10px;
   border-color:black;
   min-height: 100vh;
   opacity: 50;
@@ -22,21 +27,11 @@ header {
   align-items: center;
 }
 
-hheader::after{
-  content: " ";
-  display: block;
-  width : 60px;
-  height : 60px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%) rotate(45deg);
-  background-color: #050505;
 
-}
 
 .nastyadvert {
-  background-image: url(toiletpaper_9.jpg);
-  min-height: 90vh;
+  background-image: url(piiscine.jpg);
+  min-height: 70vh;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -52,6 +47,14 @@ hheader::after{
 
 }
 
+p {
+    margin-bottom: 4em;
+  font-family: font-family:'roboto', sans-serif;
+  text-align: justify;
+    }
+
+}
+
 .nastyadvert .container {
   position: absolute;
   top : 50%;
@@ -62,7 +65,8 @@ hheader::after{
 footer{
   background-color: #000000;
   color : #dddddd;
-  padding : 4em;
+  padding : 2em;
+  display: block;
 }
 
 .linklist {
@@ -70,7 +74,7 @@ footer{
 }
 
 .linklist li {
-  margin: 2em;
+  margin: 5em;
 }
 
 .linklist a {
@@ -78,20 +82,43 @@ footer{
 }
 
 .mywork ul {
-  list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
 
 }
 
 
 .mywork li {
   width: 40%;
-  margin: 2em;
-  line-height: 0;
+  margin: 1em;
+  line-height: 4;
+  list-style-type:none;
+
 }
 
 .mywork img {
-  width : 100%
+  width : 50%;
+  margin: 2px;
+}
+
+#menu a{
+  text-decoration: none;
+  color: black;
+}
+
+#menu {
+  line-height: 5;
+  text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+    padding: 0.7rem 1rem;
+    color: #000000;
+    list-style-type: none;
+    white-space: nowrap;
+    cursor: pointer;
+    margin: 0 auto;
+
 }
