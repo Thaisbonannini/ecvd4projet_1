@@ -38,7 +38,8 @@ menu {
     }
 
 h2 {
-  font-size: 7em;
+  font-size: 12em;
+  flex-wrap: wrap;
   margin: 1.414em 0 0.5em;
     font-weight: inherit;
     line-height: 1.2;
@@ -49,10 +50,17 @@ h2 {
   margin: 10px;
 }
 
-.p
-{
-  text-align: center;
+h3 {
+  font-family:'roboto'sans-serif;
+      font-size: 20px;
+      line-height: 28px;
+      text-align: justify;
+      width: 200px;
+      margin-left: 50px;
+      margin-right: 50px;
 }
+
+
 
 
 
