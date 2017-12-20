@@ -38,16 +38,14 @@ menu {
     }
 
 h2 {
-  font-size: 12em;
-  flex-wrap: wrap;
+  font-size: 30em;
   margin: 1.414em 0 0.5em;
-    font-weight: inherit;
     line-height: 1.2;
     font-family:'roboto'sans-serif;
     text-align: center;
     background-color:000000;
-
-  margin: 10px;
+    margin-bottom: 20px;
+    margin: 10px;
 }
 
 h3 {
